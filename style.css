@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(Assets/Images/bg.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+}
+.main .box{
+    background-color: black;
+    opacity: 0.44;
+    height: 90vw;
+    width: 100%;
+    position: absolute;
+}
+nav{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    color: red;
+    height: 114px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: white;
+    flex-direction: column;
+    gap: 23px;
+    padding: 30px;
+    font-family: "Martel Sans", sans-serif;
+
+}
+.hero > :first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    padding: 10px;
+  
+
+}
+.hero > :nth-child(2){
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+.hero > :nth-child(3){
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+.separation{
+    height: 8px;
+    color: grey;
+    background-color: grey;
+    margin-top: 43px;
+    position: inherit;
+}
+.btn{
+    padding: 3px 8px;
+    margin: 2px;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.2);
+    color: white;
+    cursor: pointer;
+    
+}
+.btn-transparent{
+    border: 0.01px solid white;
+}
+.btn-red{
+    background-color: red;
+    border-radius: 4px;
+    padding: 8px 24px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+.main input{
+    border-radius: 4px;
+    padding: 10px 34px;
+    color: white;
+    background-color: rgba(23,23,23,0);
+    font-size: 15px;
+}
+.btn-red-sm{
+    color: white;
+    background-color: red;
+}
+.hero-buttons{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first{
+    display: flex;
+    margin-top: 100px;
+}
+.first :nth-child(1){
+    color: white;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+    align-items: center;
+    flex-direction: column;
+}
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 40vw;
+    margin-top: 30px;
+    position: relative;
+    z-index: 10;
+}
+.secImg video{
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+.text{
+    text-align: center;
+}
+.text :nth-child(1){
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    max-width: 450px;
+}
+.text :nth-child(2){
+    margin-top: 30px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 22px;
+    max-width: 450px;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.faq{
+    color: white;
+    margin-top: 70px;
+    align-items: center;
+}
+.faq h1{
+    display: flex;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.faqbox{
+    background-color: rgb(48, 46, 46);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 7px;
+
+}
+.faqbox:hover{
+    background-color: rgb(80, 75, 75);
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 7px;
+
+}
+.Ending-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.Ending-para span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.Ending-para input{
+    border-radius: 4px;
+    padding: 10px 34px;
+    color: white;
+    background-color: rgba(23,23,23,0);
+    font-size: 15px;
+}
+footer{
+    max-width: 60vw;
+    color: white;
+    margin: auto;
+    padding: 14px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+
+}
+.footer a{
+    font-size: 14px;
+    color: white;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-bottom: 90px;
+
+}
+.question{  
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
